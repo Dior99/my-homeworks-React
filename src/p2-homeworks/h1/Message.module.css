@@ -1,0 +1,51 @@
+.wrapper {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.wrapperMessage {
+    display: flex;
+    position: relative;
+}
+
+.blockImg {
+    align-self: flex-end;
+    height: 55px;
+}
+
+.triangle {
+    position: absolute;
+    align-self: flex-end;
+    left: 50px;
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at top left, white 15px, black -10px);
+}
+
+.messageImg {
+    width: 50px;
+    border-radius: 30px;
+}
+
+h4 {
+    margin: 0 0 10px;
+    color: darkslateblue;
+}
+
+.message {
+    background-color: black;
+    width: 300px;
+    border-radius: 5px 5px 5px 0;
+    padding: 10px;
+    margin-left: 15px;
+}
+.text {
+    color: white;
+}
+
+.time {
+    color: darkolivegreen;
+    float: right;
+}
+
+

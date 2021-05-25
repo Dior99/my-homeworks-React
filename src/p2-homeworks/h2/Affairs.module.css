@@ -1,0 +1,74 @@
+.wrapper {
+    background-color: slategrey;
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    color: white;
+}
+
+.header {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 50px;
+}
+
+.header:hover {
+    background-color: dimgray;
+    border-radius: 5px;
+}
+
+.delete {
+    background-color: slategrey;
+    border-radius: 30px;
+    color: white;
+    border: 2px solid dimgray;
+}
+
+.delete:hover {
+    background-color: dimgray;
+    box-shadow: 0 0 10px black;
+    transition: 0.3s;
+}
+
+.delete:active {
+    box-shadow: inset 0 0 10px black;
+    background-color: slategrey;
+    transition: 0.5s;
+}
+
+.button {
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: repeat(4, 85px);
+    grid-gap: 20px;
+
+}
+
+.filter {
+    border: 2px solid dimgray;
+    text-transform: uppercase;
+    background-color: slategrey;
+    padding: 5px 0;
+    color: white;
+    font-weight: bold;
+}
+
+.filter:hover {
+    background-color: dimgray;
+    box-shadow: 0 0 5px black;
+    transition: 0.2s;
+}
+
+.filter:active {
+    background-color: slategrey;
+}
+
+.name {
+    text-transform: capitalize;
+}
+
+.priority {
+    text-transform: uppercase;
+}
+
+
