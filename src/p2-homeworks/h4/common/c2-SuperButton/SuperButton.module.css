@@ -1,7 +1,42 @@
-.default {
-
+.but {
+    border: 2px solid dimgray;
+    text-transform: uppercase;
+    background-color: slategrey;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    margin: 5px;
 }
+
+.but:hover {
+    background-color: dimgray;
+    box-shadow: 0 0 5px black;
+    transition: 0.2s;
+}
+
+.but:active {
+    background-color: slategrey;
+    box-shadow: inset 0 0 5px dimgray;
+}
+
 
 .red {
     background: red;
+}
+
+.red:hover {
+    background: red;
+    box-shadow: 0 0 5px black;
+    transition: 0.2s;
+}
+
+.red:active {
+    background-color: slategrey;
+    box-shadow: inset 0 0 5px dimgray;
+}
+
+.but:disabled {
+    color: #000;
+    cursor: auto;
+    z-index: -1;
 }

@@ -8,9 +8,9 @@ function HW7() {
     const [value, onChangeOption] = useState(arr[1])
 
     return (
-        <div>
+        <div style={{textAlign: 'center'}}>
             <hr/>
-            homeworks 7
+           <h3>homeworks 7</h3>
 
             {/*should work (должно работать)*/}
             <div>

@@ -1,5 +1,14 @@
 .superInput {
+    background-color: #D3D3D3;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #696969;
+    padding: 10px;
+    font-size: 16px;
+}
 
+.superInput:link {
+    border-bottom: 1px solid blue;
 }
 
 .errorInput {

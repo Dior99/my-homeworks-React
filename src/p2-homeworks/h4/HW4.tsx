@@ -22,7 +22,8 @@ function HW4() {
     return (
         <div>
             <hr/>
-            homeworks 4
+            <h3>homeworks 4</h3>
+
 
             <div className={s.column}>
                 <SuperInputText
@@ -30,7 +31,7 @@ function HW4() {
                     onChangeText={setText}
                     onEnter={showAlert}
                     error={error}
-                    // spanClassName={s.testSpanError}
+                   spanClassName={s.testSpanError}
                 />
 
                 <SuperInputText

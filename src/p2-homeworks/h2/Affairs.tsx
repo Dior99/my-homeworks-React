@@ -32,15 +32,18 @@ function Affairs(props: AffairsPropsType) {
         props.setFilter("low")
     }
 
+    const styleButton = `${s.filter} ${s.active}`
+
     return (
         <div>
 
             {mappedAffairs}
             <div className={s.button}>
-                <button className={s.filter} onClick={setAll}>All</button>
-                <button className={s.filter} onClick={setHigh}>High</button>
-                <button className={s.filter} onClick={setMiddle}>Middle</button>
-                <button className={s.filter} onClick={setLow}>Low</button>
+                <button className={props.filter === "all" ? styleButton : s.filter} onClick={setAll}>All</button>
+                <button className={props.filter === "high" ? styleButton : s.filter} onClick={setHigh}>High</button>
+                <button className={props.filter === "middle" ? styleButton : s.filter} onClick={setMiddle}>Middle
+                </button>
+                <button className={props.filter === "low" ? styleButton : s.filter} onClick={setLow}>Low</button>
             </div>
         </div>
     )

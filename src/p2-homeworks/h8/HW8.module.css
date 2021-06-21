@@ -1,0 +1,22 @@
+.wrapper {
+    background-color: slategrey;
+    width: 300px;
+    padding: 10px;
+    color: white;
+    margin: 0 auto;
+}
+
+.wrapperItems {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.wrapperButton {
+    display: flex;
+    justify-content: center;
+}
+
+.active {
+    color: blue;
+}
