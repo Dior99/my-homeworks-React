@@ -3,9 +3,9 @@ import Clock from './Clock'
 
 function HW9() {
     return (
-        <div>
+        <div style={{textAlign: 'center'}}>
             <hr/>
-            homeworks 9
+            <h3>homeworks 9</h3>
 
             {/*should work (должно работать)*/}
             <Clock/>
